@@ -1,0 +1,16 @@
+C:\Users\Jesus\Desktop\FSDI\107-net\bin\Debug\net5.0\107-net.exe
+C:\Users\Jesus\Desktop\FSDI\107-net\bin\Debug\net5.0\107-net.deps.json
+C:\Users\Jesus\Desktop\FSDI\107-net\bin\Debug\net5.0\107-net.runtimeconfig.json
+C:\Users\Jesus\Desktop\FSDI\107-net\bin\Debug\net5.0\107-net.runtimeconfig.dev.json
+C:\Users\Jesus\Desktop\FSDI\107-net\bin\Debug\net5.0\107-net.dll
+C:\Users\Jesus\Desktop\FSDI\107-net\bin\Debug\net5.0\ref\107-net.dll
+C:\Users\Jesus\Desktop\FSDI\107-net\bin\Debug\net5.0\107-net.pdb
+C:\Users\Jesus\Desktop\FSDI\107-net\obj\Debug\net5.0\107-net.csprojAssemblyReference.cache
+C:\Users\Jesus\Desktop\FSDI\107-net\obj\Debug\net5.0\107-net.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jesus\Desktop\FSDI\107-net\obj\Debug\net5.0\107-net.AssemblyInfoInputs.cache
+C:\Users\Jesus\Desktop\FSDI\107-net\obj\Debug\net5.0\107-net.AssemblyInfo.cs
+C:\Users\Jesus\Desktop\FSDI\107-net\obj\Debug\net5.0\107-net.csproj.CoreCompileInputs.cache
+C:\Users\Jesus\Desktop\FSDI\107-net\obj\Debug\net5.0\107-net.dll
+C:\Users\Jesus\Desktop\FSDI\107-net\obj\Debug\net5.0\ref\107-net.dll
+C:\Users\Jesus\Desktop\FSDI\107-net\obj\Debug\net5.0\107-net.pdb
+C:\Users\Jesus\Desktop\FSDI\107-net\obj\Debug\net5.0\107-net.genruntimeconfig.cache
