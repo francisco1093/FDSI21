@@ -1,0 +1,82 @@
+@{
+    ViewData["Title"] = "Task Page";
+}
+<!--<h1>@ViewData["Title"]</h1> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/app.css">
+
+<section id="list">
+            <h3>Your pending Tasks</h3>
+            <div id="indicatorTask" class="hide">
+                <div class="impTask">IMPORTANT TASK</div>
+                <div class="normalTask">NORMAL TASK</div>
+            </div>
+            <button id="btnDetails" class="btn btn-info">Show/hide details</button>
+        <h3>Your Pending Tasks</h3>
+            <div id="tasksContainer" class="task-list">
+                
+            </div>
+
+            <h3>Your Done Tasks</h3>
+            <div id="doneContainer" class="done-task-list">
+                
+            </div>
+
+</section>
+
+ <section id="details">
+            <h3>Task information</h3>
+            
+            <div id="errorTitle" class="alert alert-danger hide">
+                <b>Error:</b> Title can not be empty.
+            </div>
+            
+            <div class="control">
+                <label>Id</label>
+                <input id="txtId" type="text" class="form-control" readonly>
+            </div>
+
+            <div class="control">
+                <label>Title</label>
+                <input id="txtTitle" type="text" class="form-control" >
+            </div>
+
+            <div class="control">
+                <label>Description</label>
+                <textarea id="txtDesc" rows="4" class="form-control"></textarea>
+            </div>
+
+            <div class="control">
+                <label>Important</label>
+                <i id="iImportant" class="far fa-star icon-important"></i>
+            </div>
+            <div id="errorDueDate" class="alert alert-danger hide">
+                <b>Error:</b> Due date can not be empty.
+            </div>
+            <div class="control">
+                <label>Due date:</label>
+                <input id="txtDueDate" type="datetime-local" class="form-control">
+            </div>
+            <div class="control">
+                <label>Alert Text</label>
+                <select id="selAlert" class="form-control">
+                    <option value="1"> Dont Forget to:</option>
+                    <option value="2">Stop:</option>
+                    <option value="3">Start:</option>
+                    <option value="4">Get more coffee</option>
+                </select>
+                
+            </div>
+            <div class="control">
+                <label>Location</label>
+                <input id="txtLocation" type="text" class="form-control">
+            </div>
+
+            <div class="control">
+                <button id="btnSave" class="btn btn-dark">Save task</button>
+            </div>
+
+        </section>
+<!--<img src="~/imgs/page.jpg"> -->
+ <script src="/js/task.js"></script>
+    <script src="/js/app.js"></script>
